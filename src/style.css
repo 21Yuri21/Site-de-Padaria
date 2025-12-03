@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Hoshiko";
+    src: url("../fonte/Hoshiko\ Satsuki.ttf");
+}
+
+@font-face {
+    font-family: "PORKH";
+    src: url("../fonte/PORKH___.TTF");
+}
+
+main {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: Hoshiko, Arial, Helvetica, sans-serif;
+    background-image: url(../fotos/Favo.png);
+    background-repeat: no-repeat;
+
+}
+
+.titulo {
+    font-family: PORKH, Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin: 30px;
+    font-size: 50px;
+}
+
+nav img {
+    height: 10vh;
+}
+
+.logo {
+    margin-left: 10vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rodape a:hover {
+    transition: 300ms;
+    color: #fd8700;
+}
+
+h2 {
+    color: #000000;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    padding: 20px;
+    background: linear-gradient(135deg, #eaac66 0%, #fcfcfc 100%);
+    color: #000000;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.rodape {
+    margin: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape ul {
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+
+button {
+    background: linear-gradient(135deg, #eaac66 0%, #fcfcfc 100%);
+    width: 20vh;
+    height: 60px;
+    border-radius: 30px;
+}
+
+button:hover {
+    transition: 250ms;
+    border-color: #e0e0e0;
+    cursor: pointer;
+    background: linear-gradient(135deg, #ff9a02 0%, #f1f1f1 100%);
+}
+
+.noticias {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, #e49d04 0%, #ffffff 150%);
+    background-color: #FFFFFF;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.precos ul {
+    padding: 20px;
+    gap: 5px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #e49d04 0%, #ffffff 150%);
+    list-style-type: none;
+}
