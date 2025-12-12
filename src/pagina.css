@@ -1,0 +1,9 @@
+input.valid,
+#textaria.valid {
+    border-color: green;
+}
+
+input.invalid,
+#textaria.invalid {
+    border-color: red;
+}
